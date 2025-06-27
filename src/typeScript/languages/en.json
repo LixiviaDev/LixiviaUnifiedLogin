@@ -1,0 +1,54 @@
+{
+    "Shared": {
+        "LOG_IN": "Log in",
+        "LOGIN": "Login",
+        "LOG_OUT": "Log out",
+        "SIGN_UP": "Sign up",
+        "SIGNUP": "Signup",
+        "SEARCH": "Search",
+        "CHANGE_LANGUAGE": "Language",
+        "ADMIN_PANEL": "Admin panel"
+    },
+    "Home": {
+        "READING_TITLE": "Continue reading",
+        "HOT_TITLE": "The most readed",
+        "NEW_TITLE": "Latest updates"
+    },
+    "Login": {
+        "EMAIL": "Email",
+        "USERNAME": "Username",
+        "PASSWORD": "Password",
+        "PASSWORD_VALIDATION": "Password validation",
+        "INVALID_EMAIL": "Invalid email",
+        "INVALID_USER": "Invalid username or password",
+        "INVALID_EMAIL_OR_USERNAME": "Email or username already exists",
+        "INVALID_PASSWORD": "Invalid password"
+    },
+    "AdminPanel": {
+        "TITLE": "Admin panel",
+        "NAV": {
+            "MANAGE_USERS": "Manage users",
+            "MANAGE_MANGAS": "Manage mangas"
+        },
+        "MANAGE_MANGA": {
+            "TITLE_INPUT_LABEL": "Title",
+            "SINOPSIS_INPUT_LABEL": "Sinopsis",
+            "ADD_WRITER_INPUT_LABEL": "Writers",
+            "ADD_ARTIST_INPUT_LABEL": "Artists",
+            "STATE_INPUT_LABEL": "State",
+            "ADD_TAG_INPUT_LABEL": "Tags",
+            "ADD_WRITER_INPUT_PLACEHOLDER": "Writer name",
+            "ADD_ARTIST_INPUT_PLACEHOLDER": "Artist name",
+            "ADD_TAG_INPUT_PLACEHOLDER": "Tag"
+        }
+    },
+    "UserCard": {
+        "IMG_ALT": "Profile image of the user "
+    },
+    "Info": {
+        "MANGA_STATES": {
+            "0" : "On-going",
+            "1" : "Finished"
+        }
+    }
+}

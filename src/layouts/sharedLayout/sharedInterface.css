@@ -1,0 +1,20 @@
+header.sharedInterface {
+    position: absolute;
+    top:0;
+    height: 56px;
+    width: 100%;
+}
+
+main.sharedInterface {
+    padding-top: 56px;
+    display: flex;
+}
+
+footer.sharedInterface {
+    height: 100px;
+}
+
+img.profilePicture {
+    width: 40px;
+    aspect-ratio: 1/1;
+}

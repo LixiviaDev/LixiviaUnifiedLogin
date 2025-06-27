@@ -2,7 +2,8 @@ import { Route, createBrowserRouter, createRoutesFromElements, defer } from 'rea
 
 import { AppLayout, PublicLayout, RootLayout } from './layouts'
 import { AuthLayout } from './layouts/auth-layout'
-import { Login } from './pages/auth'
+import Login from './pages/login/login'
+import Signup from './pages/signup/signup'
 import Home from './pages/home'
 import { UserDashboard } from './pages/users'
 
@@ -24,8 +25,11 @@ export const router = createBrowserRouter(
         <Route path="/" element={<Home />} />
       </Route>
 
+      <Route path="/login" element={<Login />} />
+      <Route path="/signup" element={<Signup />} />
+      
       <Route element={<AuthLayout />}>
-        <Route path="/login" element={<Login />} />
+        
       </Route>
 
       <Route path="/dashboard" element={<AppLayout />}>

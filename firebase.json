@@ -1,0 +1,15 @@
+{
+  "hosting": {
+    "public": "dist",
+    "site": "lixiviaunifiedlogin-49f1e",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [ {
+      "source": "**",
+      "destination": "/index.html"
+    } ]
+  }
+}

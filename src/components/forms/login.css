@@ -1,0 +1,96 @@
+.login-form-container {
+  position:relative;
+
+  width: 100%;
+  min-height: 500px;
+
+  background:url("https://i.redd.it/ohj1l323kve81.jpg") 11% center no-repeat;
+  background-size:cover;
+}
+
+.login-form {
+  position:absolute;
+
+  width:410px;
+  max-width: 100vw;
+  height:460px;
+
+  top:50%;
+  left:50%;
+
+  transform:translate(-50%,-50%); /* Para poner el anchor de la imagen en el centro*/
+}
+
+.login-form .form-header .title {
+  display:inline-block;
+  max-width: 62vw; /* Por si la pantalla es demasiado pequeña que no se salga el borde de abajo */
+
+  margin-left:60px;
+
+  font-family:"Open Sans", sans-serif;
+  font-size:30px;
+  font-weight:600;
+  color:#f1f1f1;
+  text-shadow: 0 0 4px black;
+  
+  text-transform:uppercase;
+  border-bottom:10px solid #f1f1f1;
+}
+
+.login-form .form-container .form-element { /* El marco del input */
+  position:relative;
+}
+
+.login-form .form-container .form-element label {
+  position:absolute;
+
+  width:40px;
+  height:40px;
+
+  top:50%;
+  
+  transform:translate(10px, -50%);
+  
+  background:#28bff6;
+  
+  text-align:center;
+  line-height:40px;
+  color:#f1f1f1;
+}
+.login-form .form-container .form-element input {
+  width:100%;
+
+  padding: 15px 20px 15px 60px;
+
+  font-family:"Open Sans","Raleway",sans-serif;
+  font-size:18px;
+  white-space: normal; /* El wrap basicamente */
+
+  outline:none;
+  border:none;
+}
+
+@media (max-height: 500px) and (orientation: landscape){
+  .login-form-container {
+    min-height: 630px;
+  }
+
+  .login-form { /* Si es un mobil/tablet de lado centrar el formulario verticalmente necesita demasiado espacio asi que lo quitamos*/
+    top:0;
+    left:50%;
+  
+    transform:translate(-50%, 0); /* Para poner el anchor de la imagen arriba en el centro*/
+  }
+}
+
+@media (max-width: 577.02px) and (orientation: portrait){
+  .login-form {
+     /* Si es un mobil/tablet de lado centrar el formulario verticalmente necesita demasiado espacio asi que lo quitamos*/
+     top:0;
+     left:50%;
+   
+     transform:translate(-50%, 0); /* Para poner el anchor de la imagen arriba en el centro*/
+     
+    /* transform:translate(-50%, -62%); Un poco descentrado verticalmente para que quede mejor en movil */
+  }
+}
